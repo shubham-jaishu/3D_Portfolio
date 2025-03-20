@@ -190,7 +190,7 @@ variables in `.env` file.
 Download or clone this repo by using the link below:
 
 ```bash
-git clone https://github.com/ladunjexa/reactjs18-3d-portfolio.git
+git clone https://github.com/shubham-jaishu/3D_Portfolio.git
 ```
 
 **Step 2:**

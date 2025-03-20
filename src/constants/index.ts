@@ -31,7 +31,7 @@ import {
 } from "../assets";
 
 import botsync from "../assets/company/botsync_dark.png";
-import gsap from "../assets/tech/gsap.png";
+import gsap from "../assets/tech/GSap.png";
 import cpp from "../assets/tech/cpp.png";
 import c from "../assets/tech/c.png";
 import chatticket from "../assets/chatticket.png";

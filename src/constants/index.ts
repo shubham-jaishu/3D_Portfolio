@@ -31,6 +31,7 @@ import {
 } from "../assets";
 
 import botsync from "../assets/company/botsync_dark.png";
+import avaamo from "../assets/company/avaamo.jpg";
 import gsap from "../assets/tech/GSap.png";
 import cpp from "../assets/tech/cpp.png";
 import c from "../assets/tech/c.png";
@@ -147,7 +148,7 @@ const experiences: TExperience[] = [
     companyName: "Botsync",
     icon: botsync,
     iconBg: "#E6DEDD",
-    date: "January 2025 – Present",
+    date: "January 2025 – June 2025",
     points: [
       "Working at Botsync, a robotics company specializing in AMRs to transport goods up to 1,500 kg in warehouses.",
       "Designed a dynamic theme in FMS using MUI and inline CSS, enhancing 50+ UI components.",
@@ -156,7 +157,22 @@ const experiences: TExperience[] = [
       "Learned essential Git commands and workflows, managing 50+ commits and ensuring efficient version control.",
     ],
   },
+  {
+    title: "Software Engineer Intern",
+    companyName: "Avaamo",
+    icon: avaamo, // Make sure you have imported this icon
+    iconBg: "#D1E8FF", // Use a distinct background color
+    date: "July 2025 – Present",
+    points: [
+      "Engineered REST API callbacks and a Webhook UI, reducing data sync latency by over 90% for clients.",
+      "Resolved 15+ critical full-stack bugs, including backend API data stream errors and frontend conversation logic.",
+      "Secured 25+ API endpoints with robust, server-side payload validation to mitigate OWASP Top 10 risks.",
+      "Resolved numerous UI defects, including chart rendering bugs, leading to a 30% reduction in user-reported issues.",
+      "Streamlined pipeline with 20+ schema tests in Jest, database seed scripts, and Docker for isolated testing.",
+    ],
+  },
 ];
+
 
 
 const testimonials: TTestimonial[] = [
@@ -239,7 +255,7 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/shubham-jaishu/Boat",
     liveDemo: "https://boat-react-app.netlify.app/",
   }
-  
+
 ];
 
 

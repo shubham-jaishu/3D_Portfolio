@@ -67,7 +67,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I am a Computer Science student at IIIT Bhagalpur with an 8.3/10 CGPA (absolute). Currently working as an SDE Intern at BotSync, I specialize in building animated websites using GSAP along with MongoDB, Express, React, and Node.js. Proficient in C, C++, and JavaScript, I excel in both frontend and backend development. I've also solved 3000+ algorithmic problems on LeetCode, GeeksforGeeks, CodeChef, and Codeforces.`,
+      content: `I am a Computer Science graduate from IIIT Bhagalpur with an 8.35/10 CGPA. Currently working as a Full Stack Developer at Avaamo, I previously worked at BotSync as a Software Developer and remotely at Telos Digital Solutions as a Web Developer. I specialize in building dynamic, animated websites using GSAP with the MERN stack, and my tech stack also includes Redis, Docker, Git, and MQ. Proficient in C, C++, and JavaScript, I’ve solved 3500+ algorithmic problems across LeetCode, GeeksforGeeks, CodeChef, and Codeforces.`,
     },
     experience: {
       p: "What I have done so far",

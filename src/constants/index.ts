@@ -31,7 +31,8 @@ import {
 } from "../assets";
 
 import botsync from "../assets/company/botsync_dark.png";
-import avaamo from "../assets/company/avaamo.jpg";
+import avaamo from "../assets/company/Avaamo_logo.png";
+import telos from "../assets/company/telos.png";
 import gsap from "../assets/tech/GSap.png";
 import cpp from "../assets/tech/cpp.png";
 import c from "../assets/tech/c.png";
@@ -144,7 +145,7 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "Software Development Intern",
+    title: "Software Developer Intern",
     companyName: "Botsync",
     icon: botsync,
     iconBg: "#E6DEDD",
@@ -158,7 +159,21 @@ const experiences: TExperience[] = [
     ],
   },
   {
-    title: "Software Engineer Intern",
+    title: "Web Developer Intern",
+    companyName: "Telos Digital Solutions",
+    icon: telos, // Make sure you have imported this icon
+    iconBg: "#D1E8FF", // Use a distinct background color
+    date: "June 2025 – August 2025",
+    points: [
+      "Engineered full-stack website using Laravel (PHP) and SQL, with 10+ features from authentication to management.",
+      "Improved usability by fixing 15+ UI bugs and enhancing responsiveness, resulting in a 30% better user experience.",
+      "Boosted engagement by integrating WhatsApp support, strengthening communication and interaction by 40%+.",
+      "Handled backend operations by developing and securing 5+ API endpoints, which improved functionality.",
+      "Ensured SQL database reliability and performance through query optimization, achieving an estimated 99.9% uptime.",
+    ],
+  },
+  {
+    title: "Full Stack Developer Intern",
     companyName: "Avaamo",
     icon: avaamo, // Make sure you have imported this icon
     iconBg: "#D1E8FF", // Use a distinct background color

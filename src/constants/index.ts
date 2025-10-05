@@ -14,16 +14,19 @@ import {
   web,
   javascript,
   typescript,
-  html,
-  css,
   reactjs,
-  // redux,
-  tailwind,
   nodejs,
   mongodb,
   git,
+  docker,
+  go,
+  redis,
+  postman,
+  // tailwind,
+  // css,
+  // html,
+  // redux,
   // figma,
-  // docker,
   // carrent,
   // jobit,
   // tripguide,
@@ -78,14 +81,6 @@ const services: TService[] = [
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
     name: "JavaScript",
     icon: javascript,
   },
@@ -97,17 +92,9 @@ const technologies: TTechnology[] = [
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
   {
     name: "GSAP",
     icon: gsap,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
@@ -117,10 +104,6 @@ const technologies: TTechnology[] = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
   {
     name: "git",
     icon: git,
@@ -133,13 +116,45 @@ const technologies: TTechnology[] = [
     name: "C",
     icon: c,
   },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "Go",
+    icon: go,
+  },
+  {
+    name: "Redis",
+    icon: redis,
+  },
+  {
+    name: "Postman",
+    icon: postman,
+  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   // {
   //   name: "figma",
   //   icon: figma,
   // },
   // {
-  //   name: "docker",
-  //   icon: docker,
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
   // },
 ];
 
@@ -179,11 +194,11 @@ const experiences: TExperience[] = [
     iconBg: "#D1E8FF", // Use a distinct background color
     date: "July 2025 – Present",
     points: [
-      "Engineered REST API callbacks and a Webhook UI, reducing data sync latency by over 90% for clients.",
-      "Resolved 15+ critical full-stack bugs, including backend API data stream errors and frontend conversation logic.",
-      "Secured 25+ API endpoints with robust, server-side payload validation to mitigate OWASP Top 10 risks.",
-      "Resolved numerous UI defects, including chart rendering bugs, leading to a 30% reduction in user-reported issues.",
-      "Streamlined pipeline with 20+ schema tests in Jest, database seed scripts, and Docker for isolated testing.",
+      "Architected a task manager using Redis and BullMQ, with Webhook callbacks, slashing latency by 90%.",
+      "Fortified 25+ API endpoints by implementing validation and Token Bucket rate limiting to ensure stability.",
+      "Resolved 15+ critical bugs, from backend Redis worker errors to frontend conversation logic, improving reliability.",
+      "Engineered automated data management, authoring cron jobs purging records, improving database performance 15%.",
+      "Enhanced efficiency, authoring 20+ Jest tests, creating seed scripts, and containerizing environment with Docker.",
     ],
   },
 ];

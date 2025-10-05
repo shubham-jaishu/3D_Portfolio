@@ -20,6 +20,9 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import go from "./tech/go.png";
+import redis from "./tech/redis.png";
+import postman from "./tech/postman.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -41,6 +44,8 @@ export {
   close,
   css,
   docker,
+  postman,
+  redis,
   figma,
   git,
   html,
@@ -59,4 +64,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  go
 };

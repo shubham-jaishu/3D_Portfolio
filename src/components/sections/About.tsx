@@ -7,7 +7,7 @@ import { SectionWrapper } from "../../hoc";
 import { fadeIn } from "../../utils/motion";
 import { config } from "../../constants/config";
 import { Header } from "../atoms/Header";
-import dp from "../../assets/dp.png";
+import dp from "../../assets/new_dp.png";
 
 interface IServiceCard {
   index: number;
@@ -60,11 +60,12 @@ const About = () => {
         </motion.div>
 
         {/* Right Side - Profile Picture */}
-        <div className="flex flex-col items-center justify-center gap-2">
+        <div className="flex flex-col items-center justify-center">
           <img
             src={dp}
             alt="Shubham Kumar"
-            className="w-64 h-64 object-cover shadow-lg"
+            className="w-75 h-75 object-cover shadow-lg"
+            style={{ transform: 'translateY(-50px)' }}
           />
 
           {/* Animated Resume Button */}
@@ -72,9 +73,10 @@ const About = () => {
             href="https://drive.google.com/file/d/1OUOCXBzMjjDAoV2587n-1QwrFRmMoUjR/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
-            whileHover={{ scale: 1.1, boxShadow: "0px 0px 15px rgba(145, 94, 255, 0.7)" }}
-            whileTap={{ scale: 0.95 }}
+            whileHover={{ scale: 1.1, boxShadow: "0px 0px 15px rgba(145, 94, 255, 0.7)", transform: "translateY(-40px) scale(1.1)" }}
+            whileTap={{ scale: 0.95, transform: "translateY(-40px) scale(0.95)" }}
             className="mt-4 bg-[#915EFF] text-white font-semibold px-5 py-2 rounded-lg shadow-md transition duration-300"
+            style={{ transform: 'translateY(-40px)' }}
           >
             Resume
           </motion.a>

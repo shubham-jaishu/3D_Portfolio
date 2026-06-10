@@ -70,7 +70,7 @@ const About = () => {
 
           {/* Animated Resume Button */}
           <motion.a
-            href="https://drive.google.com/file/d/1OUOCXBzMjjDAoV2587n-1QwrFRmMoUjR/view?usp=drive_link"
+            href="https://drive.google.com/file/d/12mLkQBPpLmZTEEODnj7PO7f_tKPQQquA/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1, boxShadow: "0px 0px 15px rgba(145, 94, 255, 0.7)", transform: "translateY(-40px) scale(1.1)" }}

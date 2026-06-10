@@ -166,12 +166,12 @@ const experiences: TExperience[] = [
     iconBg: "#E6DEDD",
     date: "January 2025 – June 2025",
     points: [
-      "Working at Botsync, a robotics company specializing in AMRs to transport goods up to 1,500 kg in warehouses.",
-      "Designed a dynamic theme in FMS using MUI and inline CSS, enhancing 50+ UI components.",
-      "Developed strong error handling skills, increasing system reliability and cutting debug time by 30%.",
-      "Optimized API performance using the Inspect Network tab, reducing response times by 25%.",
-      "Learned essential Git commands and workflows, managing 50+ commits and ensuring efficient version control.",
-    ],
+      "Customized 50+ components in the Fleet Management System using MUI, improving UI responsiveness.",
+      "Strengthened error handling mechanisms, increasing system reliability and boosting efficiency by 30%.",
+      "Optimized API payloads, reducing frontend response times by 25% and improving overall performance.",
+      "Fixed a high-priority P0 dashboard bug, reducing system crashes and user logouts by 40%.",
+      "Reviewed 40+ pull requests and resolved merge conflicts, improving code quality and team collaboration.",
+      ],      
   },
   {
     title: "Web Developer Intern",
@@ -180,26 +180,26 @@ const experiences: TExperience[] = [
     iconBg: "#D1E8FF", // Use a distinct background color
     date: "June 2025 – August 2025",
     points: [
-      "Engineered full-stack website using Laravel (PHP) and SQL, with 10+ features from authentication to management.",
-      "Improved usability by fixing 15+ UI bugs and enhancing responsiveness, resulting in a 30% better user experience.",
-      "Boosted engagement by integrating WhatsApp support, strengthening communication and interaction by 40%+.",
-      "Handled backend operations by developing and securing 5+ API endpoints, which improved functionality.",
-      "Ensured SQL database reliability and performance through query optimization, achieving an estimated 99.9% uptime.",
-    ],
+      "Engineered a full-stack website using Laravel (PHP) and SQL, implementing 10+ features from authentication to management.",
+      "Enhanced user experience by resolving 15+ UI issues and improving responsiveness, resulting in a 30% usability improvement.",
+      "Integrated WhatsApp support, increasing user engagement and communication efficiency by 40%+.",
+      "Developed and secured 5+ API endpoints, expanding backend functionality and system reliability.",
+      "Optimized SQL queries to improve database performance and maintain an estimated 99.9% uptime.",
+      ],      
   },
   {
-    title: "Full Stack Developer Intern",
+    title: "Software Engineer",
     companyName: "Avaamo",
     icon: avaamo, // Make sure you have imported this icon
     iconBg: "#D1E8FF", // Use a distinct background color
     date: "July 2025 – Present",
     points: [
-      "Architected a task manager using Redis and BullMQ, with Webhook callbacks, slashing latency by 90%.",
-      "Fortified 25+ API endpoints by implementing validation and Token Bucket rate limiting to ensure stability.",
-      "Resolved 15+ critical bugs, from backend Redis worker errors to frontend conversation logic, improving reliability.",
-      "Engineered automated data management, authoring cron jobs purging records, improving database performance 15%.",
-      "Enhanced efficiency, authoring 20+ Jest tests, creating seed scripts, and containerizing environment with Docker.",
-    ],
+      "Built Agent Assist, Auto QA, and Try Avaamo, supporting 10+ pre-sales demos and post-sales deployments.",
+      "Automated workflows using cron jobs, Redis, and BullMQ, removing stale data and improving system performance.",
+      "Secured 25+ API endpoints with validation and rate limiting, enhancing stability under high traffic.",
+      "Leveraged AWS EC2, S3, and Docker to deploy scalable applications, improving reliability and efficiency.",
+      "Resolved 15+ production issues and authored 20+ Jest test suites, strengthening code quality and system reliability.",
+      ],      
   },
 ];
 

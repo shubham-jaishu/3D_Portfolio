@@ -46,7 +46,8 @@ export const config: TConfig = {
   },
   hero: {
     name: "Shubham Jaiswal",
-    p: ["A Web Developer and a", "Competitive Programmer"],
+    // p: ["A Web Developer and a", "Competitive Programmer"],
+    p: ["A Software Engineer", "Building Scalable Solutions"],
   },
   contact: {
     p: "Get in touch",
@@ -67,7 +68,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I am a Computer Science graduate from IIIT Bhagalpur with an 8.35/10 CGPA. Currently working as a Full Stack Developer at Avaamo, I previously worked at BotSync as a Software Developer and remotely at Telos Digital Solutions as a Web Developer. I specialize in building dynamic, animated websites using GSAP with the MERN stack, and my tech stack also includes Redis, Docker, Git, and MQ. Proficient in C, C++, and JavaScript, I’ve solved 3500+ algorithmic problems across LeetCode, GeeksforGeeks, CodeChef, and Codeforces.`,
+      content: `I am a Computer Science graduate from IIIT Bhagalpur with an 8.35/10 CGPA. Currently working as a Software Engineer at Avaamo, I build scalable applications, automate workflows, and develop reliable systems using modern technologies. Previously, I worked at BotSync as a Software Developer Intern and at Telos Digital Solutions as a Freelance Web Developer. My expertise spans full-stack development, system design fundamentals, and cloud technologies, with hands-on experience in React, Next.js, Node.js, TypeScript, Redis, Docker, AWS, and PostgreSQL. Passionate about problem-solving, I have solved 3500+ algorithmic problems across LeetCode, GeeksforGeeks, CodeChef, and Codeforces.`,
     },
     experience: {
       p: "What I have done so far",
